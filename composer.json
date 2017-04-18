@@ -34,12 +34,12 @@
     },
     "require": {
         "php": "~5.6|~7.0",
-        "symfony/symfony": "~2.8",
+        "symfony/symfony": "^3.2.4",
         "twig/extensions": "~1.4",
         "symfony/assetic-bundle": "~2.8",
         "symfony/swiftmailer-bundle": "~2.5",
         "symfony/monolog-bundle": "~2.12|~3.0",
-        "sensio/distribution-bundle": "4.0.38 as 3.0.36",
+        "sensio/distribution-bundle": "^3.0.36|^4.0.6|^5.0",
         "sensio/generator-bundle": "^2.3|^3.0",
         "incenteev/composer-parameter-handler": "~2.1",
         "tedivm/stash-bundle": "~0.6",
@@ -50,7 +50,7 @@
         "ezsystems/ez-support-tools": "~0.1.0",
         "ezsystems/ezplatform-http-cache": "^0.1",
         "ezplatform-i18n/ezplatform-i18n-ach_ug": "^1.1",
-        "ezsystems/ezplatform-multi-file-upload": "^0.1.0",
+        "ezsystems/ezplatform-multi-file-upload": "^0.1.0@dev",
         "egulias/listeners-debug-command-bundle": "~1.9",
         "white-october/pagerfanta-bundle": "1.0.*",
         "hautelook/templated-uri-bundle": "~1.0 | ~2.0",
@@ -59,12 +59,9 @@
         "ezsystems/content-on-the-fly-prototype": "~0.1.7",
         "willdurand/js-translation-bundle": "^2.6.4",
 
-        "sylius/sylius": "dev-revert-symfony3-updated as 1.0",
+        "sylius/sylius": "^1.0@beta",
         "netgen/ez-sylius-bundle": "^2.0@dev"
     },
-    "repositories": [
-        { "type": "vcs", "url": "https://github.com/pjedrzejewski/SyliusSymfony28.git" }
-    ],
     "require-dev": {
         "ezsystems/ezplatform-i18n": "^1.0",
         "behat/behat": "~3.2",
